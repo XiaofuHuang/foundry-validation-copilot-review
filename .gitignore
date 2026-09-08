@@ -1,0 +1,14 @@
+.env
+.azure/
+.foundry/results/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.pem
+*.key
+webhook*.secret
+node_modules/
+dist/
+coverage/
+local.settings.json
+
