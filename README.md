@@ -15,7 +15,7 @@ The first pull request introduces its own workflow, instructions, or skill while
 
 ## Mechanism: Copilot Code Review
 
-Path-specific instructions direct Copilot Code Review to a reviewed `validate-foundry-review` skill. Findings are advisory comments with file and line evidence; this mechanism does not produce canonical JSON/Markdown reports. Automatic review is configured through a branch ruleset, with new pushes reviewed and draft reviews disabled.
+Path-specific instructions contain a focused Foundry hosted-agent review checklist, so no skill or external repository dependency is required. Findings are advisory comments with file and line evidence; this mechanism does not produce canonical JSON/Markdown reports. Automatic review on this private personal repository requires an eligible GitHub plan; until then, review must be requested manually.
 
 ## Not deployed
 
